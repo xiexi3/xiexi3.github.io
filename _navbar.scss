@@ -1,0 +1,110 @@
+#sideNav {
+	padding: 1rem;
+
+	.navbar-nav .nav-item .nav-link {
+		font-weight: 800;
+		letter-spacing: 0.05rem;
+		text-transform: uppercase;
+	}
+
+	.navbar-toggler:focus {
+		outline-color: #d48a6e;
+	}
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: $padding-half 0;
+}
+
+.navbar-brand {
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	color: #fff;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: #fff;
+	}
+}
+
+.navbar-toggler {
+	padding: 0.25rem 0.75rem;
+	font-size: 1.25rem;
+	line-height: 1;
+	color: $navbar-color;
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.1);;
+	border-radius: 0.375rem;
+	transition: $navbar-toggler-transition;
+
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+
+	&:focus {
+		outline: 0;
+		box-shadow: 0 0 0 0.25rem;
+	}
+}
+
+.navbar-toggler-icon {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: middle;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");;
+}
+
+.navbar-collapse {
+	flex-basis: 100%;
+	flex-grow: 1;
+	align-items: center;
+}
+
+.navbar-nav {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+
+.nav-link {
+	display: block;
+	padding: 0.5rem 0;
+	font-size: 1rem;
+	font-weight: 400;
+	color: $navbar-color;
+	text-decoration: none;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
+	&:hover,
+	&:focus {
+		color: $navbar-hover-color;
+	}
+}
+
+.social-icons .social-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 3.5rem;
+	width: 3.5rem;
+	background-color: #495057;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 1.5rem;
+	margin-right: 1.5rem;
+
+	&:hover {
+		background-color: $link-hover-color;
+	}
+}

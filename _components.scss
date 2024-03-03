@@ -1,0 +1,136 @@
+.resume-section {
+	display: flex;
+	align-items: center;
+	padding: 5rem 1rem;
+	max-width: 75rem;
+
+	.resume-section-content {
+		width: 100%;
+	}
+}
+
+.subheading {
+	font-family: "Saira Extra Condensed";
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.list-inline {
+	display: flex;
+	gap: 1.5rem;
+	padding-left: 0;
+	list-style: none;
+}
+
+.list-inline-item:not(:last-child) {
+	margin-right: $margin-half;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.container-fluid {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.collapse:not(.show) {
+	display: none;
+}
+
+.fixed-top {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+}
+
+.d-inline {
+	display: inline !important;
+}
+
+.d-inline-block {
+	display: inline-block !important;
+}
+
+.d-block {
+	display: block !important;
+}
+
+.d-flex {
+	display: flex !important;
+}
+
+.d-none {
+	display: none !important;
+}
+
+.flex-row {
+	flex-direction: row !important;
+}
+
+.flex-column {
+	flex-direction: column !important;
+}
+
+.flex-grow-1 {
+	flex-grow: 1 !important;
+}
+
+.flex-shrink-0 {
+	flex-shrink: 0 !important;
+}
+
+.justify-content-between {
+	justify-content: space-between !important;
+}
+
+.m-0 {
+	margin: 0 !important;
+}
+
+.mx-auto {
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+
+.mb-0 {
+	margin-bottom: 0 !important;
+}
+
+.mb-1 {
+	margin-bottom: $margin-half !important;
+}
+
+.mb-3 {
+	margin-bottom: 1rem !important;
+}
+
+.mb-4 {
+	margin-bottom: 3rem !important;
+}
+
+.p-0 {
+	padding: 0 !important;
+}
+
+.text-primary {
+	color: ($primary) !important;
+}
+
+.bg-primary {
+	background-color: ($primary) !important;
+}
+
+.rounded-circle {
+	border-radius: 50% !important;
+}
+
+.dev-icons {
+	font-size: 3rem;
+}
